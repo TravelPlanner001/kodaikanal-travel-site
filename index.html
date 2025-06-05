@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kodaikanal Travel Planner</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #3b5998;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #2d4373;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      padding: 20px;
+      flex: 1 1 calc(33% - 40px);
+    }
+    footer {
+      background: #3b5998;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    @media (max-width: 768px) {
+      .cards {
+        flex-direction: column;
+      }
+      .card {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kodaikanal Travel Planner</h1>
+    <p>Your Gateway to Kodaikanal - Stays & Tours</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#stays">Stays</a>
+    <a href="#packages">Packages</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Kodaikanal Travel Planner. We provide comfortable homestays, relaxing resorts, and cozy cottages along with customizable travel packages to explore the beauty of Kodaikanal. Our goal is to make your trip stress-free and memorable.</p>
+  </section>
+
+  <section id="stays">
+    <h2>Our Stays</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Hill View Homestay</h3>
+        <p>Peaceful rooms with a scenic view and homemade food.</p>
+      </div>
+      <div class="card">
+        <h3>Nature Resort</h3>
+        <p>Relax in our eco-friendly resort with modern amenities.</p>
+      </div>
+      <div class="card">
+        <h3>Wooden Cottages</h3>
+        <p>Cozy wooden cottages ideal for couples and families.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="packages">
+    <h2>Travel Packages</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>2 Days / 1 Night</h3>
+        <p>Includes stay + sightseeing + campfire experience.</p>
+      </div>
+      <div class="card">
+        <h3>3 Days / 2 Nights</h3>
+        <p>All-inclusive with trekking, food, and guided tours.</p>
+      </div>
+      <div class="card">
+        <h3>Custom Packages</h3>
+        <p>We plan based on your budget, time, and interests.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200" alt="View 1" />
+      <img src="https://via.placeholder.com/300x200" alt="View 2" />
+      <img src="https://via.placeholder.com/300x200" alt="View 3" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Location: Kodaikanal, Tamil Nadu</p>
+    <p>📞 Phone: +91 98765 43210</p>
+    <p>💬 WhatsApp: <a href="https://wa.me/919876543210" target="_blank">Chat with us</a></p>
+    <p>📧 Email: info@kodaikanaltravelplanner.com</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.248926962561!2d77.48940907481463!3d10.238113889846295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b078be5b93df4b7%3A0x9ff5aa73a802426e!2sKodaikanal!5e0!3m2!1sen!2sin!4v1717585200000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kodaikanal Travel Planner. All rights reserved.</p>
+  </footer>
+</body>
+</html>
